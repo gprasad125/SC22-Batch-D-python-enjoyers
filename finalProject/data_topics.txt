@@ -1,0 +1,13 @@
+1. Potential Topics of Interest:
+
+
+2. Potential Datasets:
+
+
+///////////////////////////////////
+
+Guidelines:
+1. Does this topic fulfill a group interest?
+2. Is there a "to-be-predicted" value?
+3. Will the data require a lot of processing?
+4. Is the data in CSV format?

@@ -1,4 +1,4 @@
-{"backend_state":"ready","kernel":"python3-ubuntu","kernel_state":"idle","kernel_usage":{"cpu":0,"memory":0},"metadata":{"language_info":{"codemirror_mode":{"name":"ipython","version":3},"file_extension":".py","mimetype":"text/x-python","name":"python","nbconvert_exporter":"python","pygments_lexer":"ipython3","version":"3.8.8"}},"type":"settings"}
+{"backend_state":"init","kernel":"python3-ubuntu","kernel_state":"idle","kernel_usage":{"cpu":0,"memory":0},"metadata":{"language_info":{"codemirror_mode":{"name":"ipython","version":3},"file_extension":".py","mimetype":"text/x-python","name":"python","nbconvert_exporter":"python","pygments_lexer":"ipython3","version":"3.8.8"}},"type":"settings"}
 {"cell_type":"code","exec_count":0,"id":"136ce5","input":"","pos":69,"type":"cell"}
 {"cell_type":"code","exec_count":0,"id":"abbe56","input":"tuition.info()","metadata":{"vscode":{"languageId":"plaintext"}},"pos":18,"type":"cell"}
 {"cell_type":"code","exec_count":1,"id":"26a642","input":"","pos":5,"type":"cell"}
@@ -69,5 +69,5 @@
 {"cell_type":"markdown","id":"e4e5f6","input":"<details> If packages are not imported before they are used, you will receive errors. \n    <br> It is easiest to 'run all' cells which will go from top to bottom when coming back to your notebook after a break. </details>","pos":3,"type":"cell"}
 {"cell_type":"markdown","id":"ee1f7d","input":"Lets look at the differences, get all the unique 'state' and 'state_names' from all rows where they are not identical","pos":38,"type":"cell"}
 {"cell_type":"markdown","id":"fc3f2c","input":"##### This section will start almost empty, you will add to it as you import new packages and define function.\n- I always recommend starting with 'import pandas as pd' for dataframe management\n* Here is the pandas docs - https://pandas.pydata.org/docs/reference/index.html#api\n- Otherwise you can ignore these for now","pos":4,"type":"cell"}
-{"id":0,"time":1660057270934,"type":"user"}
+{"id":0,"time":1660142212916,"type":"user"}
 {"last_load":1660057271857,"type":"file"}
