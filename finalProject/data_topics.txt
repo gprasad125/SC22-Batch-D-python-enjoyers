@@ -1,13 +1,61 @@
 1. Potential Topics of Interest:
-
+A program that recommends you career paths and college majors
+A program that detects skin cancer
+A program that predicts the quality of milk
+A program that measures trends on crime (rising or declining) (NYC)
+A program that detects vehicle insurance fraud
+A program that reads news articles to see if they are real, sensational, misleading, or just wrong.
+A program that suggest the best ramen noodles
 
 2. Potential Datasets:
+Dataset of career paths
+Dataset of college majors
+Dataset of Skin Cancer images
+Dataset of milk characteristics
+Dataset of crime reports from NYPD
+Dataset of vehicle insurance fraud
+Dataset of news articles, real and fake.
+Dataset of mental health in the tech industry 
+Dataset taset of world happynest 2021
+Dataset of all the Ramen noodles
+Dataset of heartbeat sounds through stethascopes
+Dataset of images of apple tree leafs with diseases
+Dataset of images of humpback whale sightings
+Dataset of voice samples from male and female speakers
+Dataset of spotify and genius tracks
 
+3. Links to Datasets:
+Ex: (<link>): Brief Description of the Data
+
+(https://www.kaggle.com/datasets/ruchi798/data-science-job-salaries): Table containing info on data science salaries (predict salary in $ off other factors?)
+
+(https://www.kaggle.com/datasets/andrewmvd/isic-2019): Skin Cancer : (https://www.kaggle.com/code/gpiosenka/efficientnetb5-f1-score-83/notebook)
+
+https://www.kaggle.com/datasets/johnharshith/world-happiness-report-2021-worldwide-mortality
+
+https://www.kaggle.com/datasets/cpluzshrijayan/milkquality
+
+https://www1.nyc.gov/site/nypd/stats/crime-statistics/citywide-crime-stats.page
+
+(https://www.kaggle.com/datasets/khusheekapoor/vehicle-insurance-fraud-detection): Vehicle Fraud
+
+(https://www.kaggle.com/datasets/residentmario/ramen-ratings):  Brand, Variety (the product name), Country, and Style (Cup? Bowl? Tray?). Stars indicate the ramen quality, as assessed by the reviewer, on a 5-point scale;
+
+(https://www.kaggle.com/datasets/primaryobjects/voicegender)
+
+(https://www.kaggle.com/datasets/saurabhshahane/spotgen-music-dataset)
 
 ///////////////////////////////////
-
 Guidelines:
 1. Does this topic fulfill a group interest?
 2. Is there a "to-be-predicted" value?
 3. Will the data require a lot of processing?
 4. Is the data in CSV format?
+
+
+Ruled Out:
+https://www.kaggle.com/datasets/kinguistics/heartbeat-sounds -- Audio Files, not CSV
+https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset -- Text, not DS
+https://www.kaggle.com/datasets/anth7310/mental-health-in-the-tech-industry -- SQL files, not CSV
+https://www.kaggle.com/competitions/humpback-whale-identification/overview -- Images, not CSV
+https://www.kaggle.com/competitions/plant-pathology-2020-fgvc7/overview -- Images, not CSV

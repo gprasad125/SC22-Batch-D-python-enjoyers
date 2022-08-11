@@ -102,5 +102,5 @@
 {"cell_type":"markdown","id":"fd5b71","input":"In the block below, create a function that takes in 2 numbers and returns True if the product of the numbers is positive and False in all other cases.\n\n","pos":68,"type":"cell"}
 {"cell_type":"markdown","id":"fdadf3","input":"You can also get various details about the dataframe with the following functions.\n","pos":95,"type":"cell"}
 {"cell_type":"markdown","id":"ff7229","input":"### Pandas \\- A Data Scientist's Best Friend\n\nWith numpy briefly explored above, we will now check out a little bit about pandas. Pandas is an awesome module that helps us deal with large amounts of data in an easy to understand way. Below we will look at some of its many functions\n\nFirst, we'll have to import it. It is common practice to \\`import pandas as pd\\` but you are free to import it as you see fit.\n","pos":86,"type":"cell"}
-{"id":0,"time":1660142876736,"type":"user"}
-{"last_load":1660139597507,"type":"file"}
+{"id":0,"time":1660231022731,"type":"user"}
+{"last_load":1660231022310,"type":"file"}

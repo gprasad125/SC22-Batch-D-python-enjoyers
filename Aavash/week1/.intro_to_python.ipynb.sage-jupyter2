@@ -105,5 +105,5 @@
 {"cell_type":"markdown","id":"f64f70","input":"In the block below, create a function that takes in a list and prints out each element 1 at a time. For example, if the input was ['Dog', 'Cat', 'Hamster'], the output should be\n\nDog\n\nCat\n\nHamster\n\n","pos":75,"type":"cell"}
 {"cell_type":"markdown","id":"fc090b","input":"This can get quite annoying with longer variable names, so we can do the following","pos":12,"type":"cell"}
 {"cell_type":"markdown","id":"fd7e13","input":"Create a few boolean variables here, then try to add them together, subtract them, multiply them and divide them to see what happens. You may get an error, and thats okay. Its important to know what can and can't be done with a type of data.","pos":19,"type":"cell"}
-{"id":0,"time":1660156741039,"type":"user"}
-{"last_load":1660142123387,"type":"file"}
+{"id":0,"time":1660231159194,"type":"user"}
+{"last_load":1660231158661,"type":"file"}

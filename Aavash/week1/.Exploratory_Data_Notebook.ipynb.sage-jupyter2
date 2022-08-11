@@ -1,4 +1,4 @@
-{"backend_state":"ready","kernel":"python3-ubuntu","kernel_state":"idle","kernel_usage":{"cpu":0,"memory":0},"metadata":{"language_info":{"codemirror_mode":{"name":"ipython","version":3},"file_extension":".py","mimetype":"text/x-python","name":"python","nbconvert_exporter":"python","pygments_lexer":"ipython3","version":"3.8.8"}},"type":"settings"}
+{"backend_state":"init","kernel":"python3-ubuntu","kernel_state":"idle","kernel_usage":{"cpu":0,"memory":0},"metadata":{"language_info":{"codemirror_mode":{"name":"ipython","version":3},"file_extension":".py","mimetype":"text/x-python","name":"python","nbconvert_exporter":"python","pygments_lexer":"ipython3","version":"3.8.8"}},"type":"settings"}
 {"cell_type":"code","exec_count":0,"id":"ef6808","input":"tuition.info()","metadata":{"vscode":{"languageId":"plaintext"}},"pos":18,"type":"cell"}
 {"cell_type":"code","exec_count":0,"id":"fd64ca","input":"","pos":69,"type":"cell"}
 {"cell_type":"code","exec_count":1,"id":"4d2691","input":"","pos":5,"type":"cell"}
@@ -69,5 +69,5 @@
 {"cell_type":"markdown","id":"e85617","input":"First up, lets find the entries with no 'state' from tuition","pos":23,"type":"cell"}
 {"cell_type":"markdown","id":"f430b9","input":"Lets look at the differences, get all the unique 'state' and 'state_names' from all rows where they are not identical","pos":38,"type":"cell"}
 {"cell_type":"markdown","id":"ff4a73","input":"Add any other filters you can think of to the filters","pos":57,"type":"cell"}
-{"id":0,"time":1660142158201,"type":"user"}
+{"id":0,"time":1660239699937,"type":"user"}
 {"last_load":1660142159591,"type":"file"}
