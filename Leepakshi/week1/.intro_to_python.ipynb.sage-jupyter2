@@ -104,5 +104,5 @@
 {"cell_type":"markdown","id":"f81180","input":"Alternatively you can look at just 1 row at a time by calling it similarly to a dictionary\n","pos":95,"type":"cell"}
 {"cell_type":"markdown","id":"f91b45","input":"Next, we'll take a look at while loops. In general, you can make a while loop do anything that a for loop can do but with slightly different syntax, so if you find youself understanding while loops better than for loops, you can just focus on using while loops. ","pos":39,"type":"cell"}
 {"cell_type":"markdown","id":"fee0a8","input":"First up, lists. you can create a list with the following code.","pos":23,"type":"cell"}
-{"id":0,"time":1660239102506,"type":"user"}
-{"last_load":1660239101524,"type":"file"}
+{"id":0,"time":1660315671742,"type":"user"}
+{"last_load":1660315671230,"type":"file"}
