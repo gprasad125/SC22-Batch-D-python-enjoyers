@@ -101,5 +101,5 @@
 {"cell_type":"markdown","id":"f27447","input":"Lists work similarly to the variables we created above but store multiple values. We'll cover the three types metioned above then ask the students to try and create their own versions of them.","pos":22,"type":"cell"}
 {"cell_type":"markdown","id":"f491b5","input":"Whenever the computer sees the function being used, it automatically runs the code stored inside of that function.","pos":59,"type":"cell"}
 {"cell_type":"markdown","id":"fef615","input":"In the block below, create a function that takes in a string and returns the string in reverse order. For example, if the input was \"Hello\" the output should be \"olleH\"","pos":69,"type":"cell"}
-{"id":0,"time":1660058680061,"type":"user"}
-{"last_load":1660151790506,"type":"file"}
+{"id":0,"time":1660574467177,"type":"user"}
+{"last_load":1660584330789,"type":"file"}
