@@ -1,0 +1,14 @@
+{"backend_state":"ready","kernel":"python3-ubuntu","trust":true,"type":"settings"}
+{"id":"0fb6fa","input":"from sklearn.linear_model import SGDClassifier","pos":7,"type":"cell"}
+{"id":"180d42","input":"","pos":10,"type":"cell"}
+{"id":"20b9bf","input":"import sklearn\nfrom sklearn.model_selection import train_test_split\n\nx_train, x_test, y_train, y_test = train_test_split(input_columns, target, test_size = 0.2)","pos":2,"type":"cell"}
+{"id":"38a57c","input":"from sklearn.neural_network import MLPClassifier","pos":5,"type":"cell"}
+{"id":"3a7ac1","input":"import pandas as pd\nimport numpy as np\n\nmilk = pd.read_csv(\"Data/milk.csv\")\nmilk.rename(columns = {\"Temprature\": \"Temperature\", \"Fat \": \"Fat\", \"Colour\": \"Color\"}, inplace = True)\n\nmilk.dropna(inplace = True)\nmilk.reset_index(drop = True, inplace = True)","pos":0,"state":"done","type":"cell"}
+{"id":"5b51de","input":"","pos":11,"type":"cell"}
+{"id":"93e69a","input":"from sklearn import tree","pos":8,"type":"cell"}
+{"id":"9c845f","input":"target = milk[\"Grade\"]\ninput_columns = milk.drop(columns = [\"Grade\"])","pos":1,"type":"cell"}
+{"id":"acde62","input":"from sklearn.svm import SVC\nfrom sklearn import svm","pos":6,"type":"cell"}
+{"id":"ba22cb","input":"from sklearn.ensemble import RandomForestClassifier","pos":4,"type":"cell"}
+{"id":"bf227d","input":"from sklearn.neighbors import KNeighborsClassifier as KNN","pos":3,"type":"cell"}
+{"id":"c6b0bd","input":"from sklearn.naive_bayes import GaussianNB","pos":9,"type":"cell"}
+{"last_load":1660760920600,"type":"file"}

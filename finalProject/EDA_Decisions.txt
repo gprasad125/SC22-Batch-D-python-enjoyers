@@ -1,0 +1,11 @@
+hist_turbidity = px.histogram(df, x = "Grade", color = "Turbidity", width = 800, title = "Grade of Milk: Turbidity")
+hist_turbidity.show()
+hist_odor = px.histogram(df, x = "Grade", color = "Odor", width = 800, title = "Grade of Milk: Odor")
+hist_odor.show()
+hist_taste = px.histogram(df, x = "Grade", color = "Taste", width = 800, title = "Grade of Milk: Taste")
+hist_taste.show()
+hist_fat = px.histogram(df, x = "Grade", color = "Fat ", width = 800, title = "Grade of Milk: Fat")
+hist_fat.show()
+
+
+px.scatter(df, x='Temprature', y='Grade', color='Fat ')
