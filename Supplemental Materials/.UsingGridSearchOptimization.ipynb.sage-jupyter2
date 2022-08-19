@@ -14,4 +14,4 @@
 {"cell_type":"code","exec_count":48,"id":"271067","input":"new_preds = new_model.predict(x_test)\nnew_acc = (new_preds == y_test).mean()\nnew_acc","output":{"0":{"data":{"text/plain":"0.8571428571428571"},"exec_count":48,"output_type":"execute_result"}},"pos":12,"type":"cell"}
 {"cell_type":"markdown","id":"35cca7","input":"## HyperParameter Tuning","pos":7,"type":"cell"}
 {"id":0,"time":1660833270173,"type":"user"}
-{"last_load":1660760461896,"type":"file"}
+{"last_load":1660921836372,"type":"file"}

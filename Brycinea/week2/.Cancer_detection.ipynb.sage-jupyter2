@@ -89,4 +89,4 @@
 {"cell_type":"markdown","id":"f8afb6","input":"Now create some predictions and set them equal to `y_hat`. You can look above or google how to make predictions on sklearn if you get confused!","metadata":{"id":"4oAExynzsveF"},"pos":79,"type":"cell"}
 {"cell_type":"markdown","id":"ffdbc3","input":"**What is this???** I encourage you and your team to read about it here: https://towardsdatascience.com/understanding-confusion-matrix-a9ad42dcfd62. You should define what true positives, true negatives, false positives, and false negatives represent for this scenario. \n\nDiscuss what other  findings you can take away, and talk with your instructor about metrics like accuracy, precision and recall!","metadata":{"id":"mCR5MW5gp0ni"},"pos":53,"type":"cell"}
 {"id":0,"time":1660662754625,"type":"user"}
-{"last_load":1660831854815,"type":"file"}
+{"last_load":1660921836604,"type":"file"}
