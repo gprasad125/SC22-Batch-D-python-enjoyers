@@ -50,4 +50,4 @@
 {"cell_type":"code","exec_count":98,"id":"35c0b3","input":"#Confusion matrix\nsns.heatmap(confusion_matrix(y_test, y_hat), annot=True, fmt='g')","output":{"0":{"data":{"text/plain":"<matplotlib.axes._subplots.AxesSubplot at 0x7fef90355940>"},"exec_count":98,"output_type":"execute_result"},"1":{"data":{"image/png":"0855ae903777685303fad9be0cc5e3630627eeed","text/plain":"<Figure size 864x504 with 2 Axes>"},"exec_count":98,"metadata":{"image/png":{"height":411,"width":638},"needs_background":"light"},"output_type":"execute_result"}},"pos":22,"type":"cell"}
 {"cell_type":"markdown","id":"6ee5ca","input":"### Just Some Data Cleansing\n\n","pos":0,"type":"cell"}
 {"id":0,"time":1660921892052,"type":"user"}
-{"last_load":1660929912858,"type":"file"}
+{"last_load":1661179637070,"type":"file"}

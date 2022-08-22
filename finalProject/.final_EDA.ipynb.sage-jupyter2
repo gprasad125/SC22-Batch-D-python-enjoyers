@@ -6,5 +6,5 @@
 {"cell_type":"code","exec_count":35,"id":"3003bb","input":"fig3 = px.pie(df, values='pH',names= 'pH', title='Milk Grade', color_discrete_sequence=['#7995D0', '#9484D1', '#D1AD8E', '#D1C664', '#7AD15E', '#D19084', '#D1AD5A', '#64D1A5', '#6FC2D1', '#C18ED1', '#9c948c', '#D1C099', '#AFD16F', '#D16E5A', '#857E40', '#CCB3D1', '#B0D16F'])\nfig3.show()\n\n#shows the distrubition of milk pH","output":{"0":{"data":{"iframe":"5ac92a19f6bb757e3b041395e1407deeae015389"},"exec_count":35,"output_type":"execute_result"}},"pos":5,"scrolled":true,"type":"cell"}
 {"cell_type":"code","exec_count":4,"id":"d69283","input":"df = pd.read_csv(\"Data/milk.csv\")\n","pos":1,"type":"cell"}
 {"cell_type":"markdown","id":"fef331","input":"### Description of Histograms\n\nThis plot shows that the grade of milk based on the turbidity value is actually ...\n","pos":2,"type":"cell"}
-{"id":0,"time":1660921855806,"type":"user"}
-{"last_load":1660921442832,"type":"file"}
+{"id":0,"time":1661189366354,"type":"user"}
+{"last_load":1661179684654,"type":"file"}
