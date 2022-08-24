@@ -1,4 +1,4 @@
-<span style='font-family:Arial'><!DOCTYPE html>
+<span style='font-family:Inter'><!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -7,9 +7,9 @@
     <meta content="" name="description">
     <meta content="" name="author">
     <title>
-      Creative - Start Bootstrap Theme
+      Milk Quality Predictor
     </title><!-- Favicon-->
-    <link href="assets/favicon.ico" rel="icon" type="image/x-icon">
+    <link rel="icon" type="image/x-icon" href="assets/milk-carton.png">
     <!-- Bootstrap Icons-->
     <link href=
     "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
@@ -110,20 +110,20 @@
         </div>
       </div>
     </section>
-    <!-- Services-->
+    <!--Variables-->
 
     <section class="page-section" id="services">
       <div class="container px-4 px-lg-5">
-        <h2 class="text-center mt-0">Variables</h2>
+        <h2 class="text-center mt-0">Our Variables</h2>
         <hr class="divider">
 
-        <div class="row gx-4 gx-lg-5">
+        <div class="row">
           
           <div class="col-lg-3 col-md-6 text-center">
             <div class="mt-5">
               <div class="mb-2"><i class="bi bi-droplet-half fs-1 text-primary"></i></div>
               <h3 class="h4 mb-2">Turbidity</h3>
-              <p class="text-muted mb-0">Turbidity measures the clarity of a liquid</p>
+              <p class="text-muted mb-0">Turbidity measures <br>the clarity of a liquid</p>
             </div>
           </div>
 
@@ -143,18 +143,21 @@
               <div class="mb-2"><i class="bi bi-cup-straw fs-1 text-primary"></i></div>
               <h3 class="h4 mb-2">Taste</h3>
               <p class="text-muted mb-0">
-                Spoiled milk tastes tart, while higher grade milk tastes sweet
-                and bland
+                Spoiled milk tastes tart,<br>
+                while higher grade milk<br>
+                tastes sweet and bland
               </p>
             </div>
           </div>
 
+        </div>
+        <div class = "row">
           <div class="col-lg-3 col-md-6 text-center">
             <div class="mt-5">
               <div class="mb-2"> <i class="bi-heart fs-1 text-primary"></i></div>
               <h3 class="h4 mb-2">Fat</h3>
               <p class="text-muted mb-0">
-                High grade whole milk is 3.25% fat
+                High grade whole <br>milk is 3.25% fat
               </p>
             </div>
           </div>
@@ -164,7 +167,8 @@
               <div class="mb-2"><i class="bi bi-align-end fs-1 text-primary"></i></div>
               <h3 class="h4 mb-2">pH</h3>
               <p class="text-muted mb-0">
-                The ideal pH of milk lies between 6 and 7
+                The ideal pH of milk <br>
+                lies between 6 and 7
               </p>
             </div>
           </div>
@@ -174,7 +178,8 @@
               <div class="mb-2"><i class="bi bi-thermometer-half fs-1 text-primary"></i></div>
               <h3 class="h4 mb-2">Temperature</h3>
               <p class="text-muted mb-0">
-                The ideal temperature for milk is under 46⁰ C or 114.8⁰ F
+                The ideal temperature for milk <br>
+                is under 46⁰ C or 114.8⁰ F
               </p>
             </div>
           </div>
@@ -193,15 +198,13 @@
         "910"></iframe>
       </center>
 
-      <p class="plotpara">
-      </p>
-
+      <p1>
       <center>
         Turbidity measures the clarity of a liquid. Milk with higher turbidity
-        (represented by a 1) is more opaque than milk with a lower turbidity
+        (represented by a 1) is more opaque than milk with a<br> lower turbidity
         (0). Lower grade milk tends to have higher turbidity.
       </center>
-      <p></p>
+      </p1>
     </div>
 
     <div class="plot">
@@ -210,15 +213,12 @@
         "910"></iframe>
       </center>
 
-      <p class="plotpara">
-      </p>
-
+      <p1>
       <center>
         The rancid odor (0) of spoiled milk is caused by the growth of lactic
-        acid producing organisms in the milk. High grade milk only has fewer
-        samples that have a bad odor.
+        acid producing organisms in the milk.<br> There are very few high grade milk samples with a bad odor.
       </center>
-      <p></p>
+     </p1>
     </div>
 
     <div class="plot">
@@ -227,14 +227,12 @@
         "910"></iframe>
       </center>
 
-      <p class="plotpara">
-      </p>
-
+      <p1>
       <center>
         Spoiled milk tastes tart (0), while higher grade milk tastes sweet and
-        bland (1). High grade milk is usually more bland, but can taste tart even though it isn't spoiled.
+        bland (1).<br> High grade milk is usually more bland, but can taste tart even though it isn't spoiled.
       </center>
-      <p></p>
+     </p1>
     </div>
 
     <div class="plot">
@@ -243,53 +241,74 @@
         "910"></iframe>
       </center>
 
-      <p class="plotpara"><center>
-        Since whole milk was used for this data set, the ideal fat content was 3.25% (1);
+      <p1>
+        <center>
+        Since whole milk was used for this data set, the ideal fat content was 3.25% (1);<br>
         however as the quality degrades the fat percentage drops (0).
       </center>
-      </p>
+      </p1>
     </div>
 
     <div class="plot">
       <center>
-        <iframe height="500" src="assets/html_plots/temp_grade.html" width=
+        <iframe height="500" src="assets/html_plots/temp_grade_recolored.html" width=
         "910"></iframe>
       </center>
 
-      <p class="plotpara">
+      <p1>
       <center>
         The pH is a logarithmic scale that shows acidic levels, with 7 being
-        neutral, lower than 7 being more acidic, and higher more alkaline. High
-        grade and medium grade milk is between 6-7 pH and under 46⁰C, indicating that the
+        neutral, lower than 7 being more acidic,<br> and higher more alkaline.High
+        grade and medium grade milk is between 6-7 pH and under 46⁰C, <br>indicating that the
         ideal pH lies between 6 and 7 with an ideal temperature under 46⁰C.
       </center>
-      </p>
+      </p1>
     </div>
 
     <div class="plot">
       <center>
         <iframe height="500" src="assets/html_plots/piechart.html" width=
         "910"></iframe>
-      <p style="color: #4169E1; font-size: 24px;">
+      <p1>
 
       <center>
         This graph shows the variation in pH through our entire dataset. Almost
-        ¼ of the milk data is 6.8 pH, and 65.45% of the data is between 6.5 -
+        ¼ of the milk data is 6.8 pH,<br> and 65.45% of the data is between 6.5 -
         6.8 pH.
       </center>
-      </p>
+      </p1>
     </div>
-    <!-- Call to action-->
+    <!--Machine Learning-->
 
-    <section class="page-section bg-dark text-white" id="portfolio">
+    <section class="page-section bg-dark text-blue" id="portfolio">
       <div class="container px-4 px-lg-5 text-center">
         <h2 class="mb-4">
-          <h3>Bs </h3>
+          <h1>Machine Learning</h1>
         </h2>
-        <a class="btn btn-light btn-xl" href= "https://cocalc3.ai-camp.dev/projects/a2965908-ba18-4335-af0a-8fe3955e8e18/files/python-enjoyers/finalProject/final_EDA.ipynb?session=default">Click here</a>
+        
+        <h4>K-Nearest Neighbors</h4>
+          <img src="assets/img/knn.png", width = 350px, height = 300px>
+          <p>The K-Nearest Neighbors algorithm is a supervised machine learning method that assigns objects to classes most common among with k nearest neighbors where k is a positive integer in classification. With our dataset, it classified milk with unknown grade by assigning them into classes (high, medium, or low) based on their distance relative to milk objects with known grades. K-Nearest Neighbors had an accuracy of 99%, so we didn't have to do any optimizations.</p>
+          <img src="assets/img/knn_matrix.png", width = 700px, height = 500px>
+
+        <h4>Random Forest</h4>
+          <img src="assets/img/rf.png">
+          <p>Random forest is a machine learning method that trains by creating decision trees and outputs the class selected by the majority of the trees in classification. It was our most effective model that consistently gets an accuracy of 100% with no optimization. </p>
+          <img src="assets/img/rf_matrix.png", width = 700px, height = 500px>
+
+        <h4>Multi-Layer Perceptron</h4>
+          <img src="assets/img/mlp.png">
+          <p>A multi-layer perceptron is an artificial neural network with layers of nodes. It can separate data that cannot be separated linearly. MLP uses a supervised learning technique called backpropagation, a generalization of the least mean squares algorithm in the linear perceptron for training. Learning occurs in the perceptron by changing connection weights after each piece of data is processed, based on the amount of error in the output compared to the expected result. Initially, using a MLP for classifying milk grade did not work very well, with accuracies ranging from 40% to 70%. After grid search optimization and hyperparameter tuning, we managed to get an accuracy of 92.4%</p>
+          <img src="assets/img/mlp_matrix.png", width = 700px, height = 500px>
+
+        <h4>Support Vector Machines</h4>
+          <img src="assets/img/svm.png">
+          <p>Support Vector Machines is a supervised machine learning algorithm that maps data so that it can be easily categorized, even when the data is not otherwise linearly separable. SVM will then create a line/hyperplane to separate the data into classes. Using this new line, characteristics of new data can be used to predict the class of a new data point. The basic SVM method wasn't very effective, and had an accuracy of 40-70%. After a lot of grid search optimization and hyperparameter tuning, the accuracy increased to 86.7% which was still lower than we wanted.</p>
+        <img src="assets/img/svm_matrix.png", width = 700px, height = 500px>
       </div>
     </section>
-    <!-- Contact-->
+
+    <!--About-->
 
     <section class="page-section" id="contact">
       <div class="container px-4 px-lg-5">
@@ -302,20 +321,78 @@
             <hr class="divider">
 
             <p class="text-muted mb-5">
-              Meet the Python Enjoyers (Batch D).
+              Meet the Python Enjoyers (Batch D) .
             </p>
           </div>
         </div>
       </div>
-    </section>
-    <!-- Footer-->
+  <!--    <div class = "aboutUs">
+        <img src = "assets/team/aboutUs.jpg" width: "20px" height: "30px">
+      </div>--->
+          <div class="type">
 
-    <footer class="bg-light py-5">
-      <div class="container px-4 px-lg-5">
-        <div class="small text-center text-muted">
-          Copyright © 2022 AI Camp
-        </div>
+			<div class="type-in">
+        <h3 class = "DOI3"><center>Leepakshi A</center></h3>
+				<img class = "DOI3" src="assets/team/aboutUs.jpg"  width="200" height="300">
+        <p class = "DOI3"><center>Something about the student</center></p>
+        <br>
       </div>
+
+      <div class="type-in">
+        <h3 class = "DOI5"><center>Sidharth B</center></h3>
+        <img class = "DOI4" src="assets/team/aboutUs.jpg" width="200" height="300">
+        <p class = "DOI5"><center>Something about the student</center></p>
+        <br>
+      </div>
+            <div class="type-in">
+        <h3 class = "DOI3"><center>April H</center></h3>
+				<img class = "DOI3" src="assets/team/aboutUs.jpg"  width="200" height="300">
+        <p class = "DOI3"><center>Something about the student</center></p>
+        <br>
+      </div>
+            <div class="type-in">
+        <h3 class = "DOI3"><center>Richard Ho</center></h3>
+				<img class = "DOI3" src="assets/team/richard.jpg"  width="200" height="300">
+        <p class = "DOI3"><center>Metuchen High School '24<br>rqho.github.io</center></p>
+        <br>
+      </div>
+
+    </div>
+      
+      <div class="type">
+
+			<div class="type-in">
+        <h3 class = "DOI3"><center>Aavash R</center></h3>
+				<img class = "DOI3" src="assets/team/aboutUs.jpg"  width="200" height="300">
+        <p class = "DOI3"><center>Something about the student</center></p>
+        <br>
+      </div>
+
+      <div class="type-in">
+        <h3 class = "DOI5"><center>Alvar R</center></h3>
+        <img class = "DOI4" src="assets/team/aboutUs.jpg" width="200" height="300">
+        <p class = "DOI5"><center>Something about the student</center></p>
+        <br>
+      </div>
+        <div class="type-in">
+        <h3 class = "DOI3"><center>Brycinea S</center></h3>
+				<img class = "DOI3" src="assets/team/aboutUs.jpg"  width="200" height="300">
+        <p class = "DOI3"><center>Masterman High School '25<br> New to coding!</center></p>
+        <br>
+      </div>
+        <div class="type-in">
+        <h3 class = "DOI3"><center>Gokul Prasad</center></h3>
+				<img class = "DOI3" src="assets/team/gokul.JPEG"  width="200" height="300">
+        <p class = "DOI3"><center>Data Science Instructor @ AI Camp! </center></p>
+        <br>
+      </div>
+
+    </div>
+      </section>
+    <footer>
+        <div id= "footer_PE">
+         <a href='https://www.ai-camp.org' target='_blank' rel='noopener' font-color=#3d3d97>Copyright © 2022 AI Camp</a>
+        </div>
     </footer>
     <!-- Bootstrap core JS-->
     <script src=
